@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(144, 234, 204);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(193, 198, 191);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 20px;
+}
+
+#ui2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#form_id {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#ui3 {
+  outline: none;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+#add_button {
+  background-color: rgb(116, 104, 173);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#remove_button {
+  background-color: red;
+  color: white;
+  margin-bottom: 0;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  float: right;
+  margin-bottom: 15px;
+}
+#ui {
+  padding-bottom: 7px;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+  background-color: tan;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
